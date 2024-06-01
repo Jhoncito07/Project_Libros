@@ -7,7 +7,7 @@ import org.springframework.stereotype.Repository;
 
 import com.demo.libros.models.Libro;
 
-@Repository
+@Repository("libroRepositoryDemo")
 public class LibroRepositoryDemo implements LibroRepository {
 
     private final List<Libro> libros = new ArrayList<>();
